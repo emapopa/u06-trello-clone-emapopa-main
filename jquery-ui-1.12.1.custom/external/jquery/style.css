@@ -1,0 +1,94 @@
+
+body {
+    
+    width: 1500px;
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+
+
+#logo{
+	display: block;
+	margin: auto;
+	width: 10%;
+	padding-bottom: 40px;
+ }
+
+#sortable1, #sortable2, #sortable3 { 
+    list-style-type: none; 
+    margin: 0; 
+    float: left; 
+    margin-right: 10px; 
+    background: rgb(189, 213, 241); 
+    padding: 5px; 
+   
+}
+
+#sortable1 li, #sortable2 li, #sortable3 li { 
+    margin: 5px; 
+    padding: 5px; 
+    font-size: 15px; 
+    cursor: move;
+    background-color: rgb(255, 255, 255);
+ 
+}
+
+
+div.box {
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+    background-color: rgb(140, 159, 195);
+}
+
+div.header {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 5px 5px;
+    cursor: move;
+}
+
+.box ul {
+    width: 290px;
+}
+
+
+div.column {
+    width: 350px;
+    float: left;
+    height: auto;
+    margin: 2px;
+    min-height: 50px;
+    border: 1px #95c0e7 dashed;
+    
+}
+
+label, input { 
+    display:block;
+}
+input.text { 
+    margin-bottom:12px; 
+    width:95%; 
+    padding: .4em; 
+}
+
+fieldset { 
+    padding:0; 
+    border:0; 
+    margin-top:25px; 
+}
+.ui-dialog .ui-state-error { 
+    padding: .3em; }
+.ui-state-highlight { overflow-y:scroll;}
+.btnToolbar {
+    margin-bottom: 10px;
+}
+
+#sortable3 > li { 
+    background-color:red;
+}
+.background-red { 
+    background-color:red;
+}
+
+/*.body{ background-color: red;}*/
